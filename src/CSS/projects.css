@@ -1,0 +1,17 @@
+.projects {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-frame {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  margin: 30px;
+  transition: all 0.15s ease-in;
+  border-radius: 8px;
+}
+
+.image-frame:hover {
+  transform: translateY(-5px);
+}

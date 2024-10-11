@@ -1,0 +1,6 @@
+.hero {
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}

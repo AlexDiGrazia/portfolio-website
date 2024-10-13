@@ -22,6 +22,9 @@
 
 .projects-filter-nav {
   position: relative;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 
 input[type="radio"] {
@@ -29,5 +32,44 @@ input[type="radio"] {
 }
 
 .projects-filter-nav label {
-  margin-right: 2%;
+  white-space: nowrap;
+}
+
+.projects-filter-nav-slider-underline {
+  height: 2px;
+  background: #1288ce;
+  display: inline-block;
+  position: absolute;
+  left: -1.2%;
+  bottom: 0;
+}
+
+.all-tab {
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+  width: 25px;
+}
+
+.react-tab {
+  transform: translateX(128%);
+  transition: transform 0.3s ease-out;
+  width: 44px;
+}
+
+.fullstack-tab {
+  transform: translateX(187.5%);
+  transition: transform 0.3s ease-out;
+  width: 70px;
+}
+
+.vanillaJS-tab {
+  transform: translateX(315%);
+  transition: transform 0.3s ease-out;
+  width: 74px;
+}
+
+@media screen and (max-width: 845px) {
+  h2.margin-auto {
+    margin: 0 auto 33px;
+  }
 }

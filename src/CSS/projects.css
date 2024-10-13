@@ -67,9 +67,3 @@ input[type="radio"] {
   transition: transform 0.3s ease-out;
   width: 74px;
 }
-
-@media screen and (max-width: 845px) {
-  h2.margin-auto {
-    margin: 0 auto 33px;
-  }
-}

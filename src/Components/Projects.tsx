@@ -12,17 +12,11 @@ export const Projects = () => {
     setTab(tab);
   };
 
-  // const filter = {
-  //   // "all-tab": true,
-  //   "react-tab": "react",
-  //   "fullstack-tab": "fullstack",
-  //   "vanillaJS-tab": "vanillaJS",
-  // };
-
   return (
     <>
       <h2 className="margin-auto">Projects</h2>
 
+      {/* TO DO make TabSlider its own component */}
       <div className="content-centering-container projects-wrapper flex">
         <div className="projects-filter-nav">
           <label htmlFor="all" className="pointer">
@@ -79,6 +73,7 @@ export const Projects = () => {
                   image={obj.image}
                   url={obj.url}
                   backgroundPosition={obj.backgroundPosition}
+                  key={`key_${obj.url}`}
                 />
               ))
             : projects
@@ -88,6 +83,7 @@ export const Projects = () => {
                     image={obj.image}
                     url={obj.url}
                     backgroundPosition={obj.backgroundPosition}
+                    key={`key_${obj.url}`}
                   />
                 ))}
           {}

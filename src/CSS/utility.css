@@ -6,3 +6,7 @@
   width: fit-content;
   margin: 0 auto 33px;
 }
+
+.pointer {
+  cursor: pointer;
+}

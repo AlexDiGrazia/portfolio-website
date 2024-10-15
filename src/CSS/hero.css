@@ -46,6 +46,6 @@
 .left div.image-wrapper {
   width: 75%;
   height: 95%;
-  background-image: url("alex.jpg");
+  background-image: url("public/alex.jpg");
   background-size: cover;
 }

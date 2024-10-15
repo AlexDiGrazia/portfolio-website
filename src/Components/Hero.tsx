@@ -4,7 +4,12 @@ export const Hero = () => {
   return (
     <div className="hero">
       <div className="left">
-        <div className="image-wrapper"></div>
+        <div
+          className="image-wrapper"
+          style={{
+            backgroundImage: `url("public/alex.jpg")`,
+          }}
+        ></div>
       </div>
       <div className="right">
         <h2>

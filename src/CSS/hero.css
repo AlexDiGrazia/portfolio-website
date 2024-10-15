@@ -36,6 +36,7 @@
 .right h2 span {
   border-right: 1px solid white;
   margin-right: 14px;
+  margin-left: 6px;
 }
 
 .right h3 {

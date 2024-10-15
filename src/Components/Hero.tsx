@@ -7,7 +7,7 @@ export const Hero = () => {
         <div
           className="image-wrapper"
           style={{
-            backgroundImage: `url("/alex.jpg")`,
+            backgroundImage: `url("alex.jpg")`,
           }}
         ></div>
       </div>

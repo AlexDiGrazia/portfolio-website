@@ -48,4 +48,5 @@
   height: 95%;
   background-image: url("public/alex.jpg");
   background-size: cover;
+  border-radius: 8px;
 }

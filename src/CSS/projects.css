@@ -5,6 +5,7 @@
 
 .projects-wrapper {
   flex-direction: column;
+  min-height: 544px;
 }
 
 .image-frame {

@@ -17,7 +17,10 @@ export const Projects = () => {
       <h2 className="margin-auto">Projects</h2>
 
       {/* TO DO make TabSlider its own component */}
-      <div className="content-centering-container projects-wrapper flex">
+      <div
+        id="projects-section"
+        className="content-centering-container projects-wrapper flex"
+      >
         <div className="projects-filter-nav">
           <label htmlFor="all" className="pointer">
             All

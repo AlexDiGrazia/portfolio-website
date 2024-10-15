@@ -33,3 +33,8 @@ nav ul {
   display: flex;
   align-items: center;
 }
+
+nav ul li a {
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}

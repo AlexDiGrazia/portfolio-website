@@ -38,3 +38,11 @@ nav ul li a {
   color: rgba(255, 255, 255, 0.87);
   text-decoration: none;
 }
+
+nav ul li {
+  transition: transform 0.1s linear;
+}
+
+nav ul li:hover {
+  transform: scale(1.05);
+}

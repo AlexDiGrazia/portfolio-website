@@ -46,6 +46,7 @@
 
 .left div.image-wrapper {
   width: 75%;
+  max-width: 441px;
   height: 95%;
   background-size: cover;
   background-position: center;

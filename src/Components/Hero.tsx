@@ -16,8 +16,9 @@ export const Hero = () => {
           Alex DiGrazia <span></span> Web Developer
         </h2>
         <h3>
-          Thanks for visiting my portfolio! <br />I build web applications with
-          Node.js, React, PostgreSQL and AWS
+          Thanks for visiting my portfolio! <br />I build fullstack applications
+          with Node.js, <br />
+          React, PostgreSQL and AWS
         </h3>
       </div>
     </div>

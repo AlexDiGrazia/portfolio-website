@@ -40,8 +40,9 @@
 }
 
 .right h3 {
-  font-size: 24px;
+  font-size: 21px;
   margin-top: 0px;
+  letter-spacing: 0.6px;
 }
 
 .left div.image-wrapper {
@@ -51,4 +52,14 @@
   background-size: cover;
   background-position: 41%;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 1410px) {
+  .right h2 {
+    font-size: 35px;
+  }
+
+  .right h3 {
+    font-size: 18px;
+  }
 }

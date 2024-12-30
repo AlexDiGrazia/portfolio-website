@@ -63,3 +63,9 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 1272px) {
+  .left div.image-wrapper {
+    max-width: 381.61px;
+  }
+}

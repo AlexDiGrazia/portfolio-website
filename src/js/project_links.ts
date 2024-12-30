@@ -26,7 +26,7 @@ export const projects = [
   {
     category: ["fullstack-tab", "react-tab"],
     image: "man-park.png",
-    url: "https://manpark.vercel.app/",
+    url: "https://www.manparkdemo.com/",
     backgroundPosition: "18%",
   },
   {

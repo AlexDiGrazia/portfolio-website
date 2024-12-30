@@ -32,7 +32,7 @@ export const projects = [
   {
     category: ["fullstack-tab", "react-tab"],
     image: "lesson-factory-login.png",
-    url: "https://lesson-factory-frontend.vercel.app/",
+    url: "https://www.thelessonfactory.com",
     backgroundPosition: "48%",
   },
   {
